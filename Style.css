@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: rgb(33, 63, 133);
+
+}
+.first{
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.menu{
+        
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+   
+    font-size: 11px;
+    margin-right: 19%;
+
+
+}
+h2{
+    padding: 0px 15px;
+}
+.Hotel{
+     display: flex;
+     justify-content: space-between;
+     color: gold;
+
+        
+}
+.Hotel p{
+    font-weight: 200;
+    padding: 0px 9px;
+}
+.link{
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+*{
+    justify-content: space-between;
+}
+ h2{
+    padding: 0px 9px;
+ }
+
+
+}
+
+@media (max-width:600px)
+{
+
+    h2{
+        padding: 0px 7px;
+     }
+     .menu{
+        margin-right: 1%;
+     }
+}
